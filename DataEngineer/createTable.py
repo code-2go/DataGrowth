@@ -1,9 +1,11 @@
 import csv
 import sqlite3
 
-dbName = 'Sales History.db'
+
+dbName = 'SalesHistory.db'
+tableName = 'Sales2024'
 conn = sqlite3.connect(dbName)
-conn.execute('CREATE TABLE Test (Product1, Quantity, Value)')
+conn.execute(f'CREATE TABLE {tableName} (Product1, Quantity, Value)')
 
 conn.commit
 conn.close
