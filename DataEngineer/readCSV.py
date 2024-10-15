@@ -2,7 +2,7 @@ import csv
 import sqlite3
 
 dbname = 'SalesHistory.db'
-csvfile ="histórico de vendas 2024"
+csvfile ="histórico de pedido 2024"
 tableName = 'sales2024'
 with open (csvfile, 'r') as file:
     reader = csv.reader(file)
