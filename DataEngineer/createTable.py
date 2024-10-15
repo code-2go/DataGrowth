@@ -9,3 +9,5 @@ conn.execute(f'CREATE TABLE {tableName} (Product1, Quantity, Value)')
 
 conn.commit
 conn.close
+
+print('Table Created successfully')
