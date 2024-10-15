@@ -18,4 +18,4 @@ with open (csvfile, 'r') as file:
 conn.commit()
 conn.close()
 
-print('Processed')
+print('The file has been processed')
