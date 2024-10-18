@@ -5,6 +5,7 @@ import sqlite3
 dbName = 'SalesHistory.db'
 tableName = 'Sales2024'
 conn = sqlite3.connect(dbName)
+
 conn.execute(f'''CREATE TABLE {tableName} (
     Id Pedido,
     Data,
