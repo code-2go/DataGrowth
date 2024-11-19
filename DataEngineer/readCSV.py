@@ -16,7 +16,6 @@ with open (csvfile, 'r') as file:
                     (ID_Pedido, Data, ID_Cliente, Fornecedor, Qtd., Vlr.Unit, Vlr.IPI, Vlr.Tot., Vlr.Tot.IPI)
                     Values (?,?,?,?,?,?,?,?,?,?)
                      ''')
-conn.commit() 
-conn.close() #Fechamento da conexão, poupando recursos do sistema
+    conn.commit()
 
 print('The file has been processed') 
